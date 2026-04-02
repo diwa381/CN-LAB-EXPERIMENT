@@ -1,5 +1,3 @@
-# 📘 CN LAB – Experiment 9
-
 ## 👤 Student Information
 - **Name:** Golla Diwakar Yadav  
 - **Roll Number:** 2401361032  
