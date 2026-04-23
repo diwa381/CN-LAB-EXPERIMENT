@@ -1,0 +1,56 @@
+==============================
+OUTPUT - BASIC ENTERPRISE CONNECTIVITY
+==============================
+
+Topology:
+PC → Switch → Router → Router → Switch → PC
+
+IP Configuration:
+
+Router0:
+Fa0/0 - 192.168.1.1
+Fa0/1 - 10.0.0.1
+
+Router1:
+Fa0/0 - 192.168.2.1
+Fa0/1 - 10.0.0.2
+
+PC0:
+Assigned via DHCP → 192.168.1.10
+
+PC2:
+IP Address → 192.168.2.2
+
+---------------------------------
+
+PING TEST:
+
+Command:
+ping 192.168.2.2
+
+Output:
+
+Reply from 192.168.2.2: bytes=32 time<1ms TTL=128
+Reply from 192.168.2.2: bytes=32 time<1ms TTL=128
+Reply from 192.168.2.2: bytes=32 time<1ms TTL=128
+Reply from 192.168.2.2: bytes=32 time<1ms TTL=128
+
+---------------------------------
+
+RESULT:
+SUCCESSFUL COMMUNICATION BETWEEN LAN1 AND LAN2
+
+---------------------------------
+
+Routing Protocol Used:
+RIP Version 2
+
+---------------------------------
+
+DHCP:
+Configured on Server
+Automatic IP assigned to LAN1 PCs
+
+==============================
+END OF OUTPUT
+==============================
